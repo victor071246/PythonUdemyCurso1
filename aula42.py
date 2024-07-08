@@ -6,7 +6,8 @@ letra_apareceu_mais_vezes = ''
 while i < len(frase):
     letra_atual = frase[i]
 
-    if letra_atual == '':
+    if letra_atual == ' ':
+        i += 1
         continue
 
     qtd_apareceu_mais_vezes_atual = frase.count(letra_atual)
@@ -18,5 +19,5 @@ while i < len(frase):
 
     i += 1
 
-print(f'A letra que apareceu mais vezes foi{letra_apareceu_mais_vezes}, aparecendo {qtd_apareceu_mais_vezes} vezes')
+print(f'A letra que apareceu mais vezes foi "{letra_apareceu_mais_vezes}", aparecendo {qtd_apareceu_mais_vezes} vezes')
       
