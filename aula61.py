@@ -16,4 +16,7 @@ Obter o resto da divisão da conta anterior por 11
 Se o resultado anterior for maior que 9:
     resultado é 0
 contrário disso:
+    resultado é o valor da conta
+
+O primeiro dígito do CPF é 7
 """
