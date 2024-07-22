@@ -5,10 +5,17 @@ Elas podem receber valores para parâmetros (argumentos) e retornar um valor esp
 Por padrão, funções Python retornan None (nada)
 """
 
-def imprimir(a, b, c):
-    print(a, b, c)
+# def imprimir(a, b, c):
+#     print(a, b, c)
 
-imprimir(1, 2, 3)
+# imprimir(1, 2, 3)
+# imprimir(4, 5, 6)
 
+def saudacao(nome='Usuário'):
+    print(f'Olá {nome}')
+
+saudacao('Luiz Otávio')
+saudacao('Maria')
+saudacao('Helena')
 
 
