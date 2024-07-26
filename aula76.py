@@ -68,10 +68,48 @@ Métodos úteis dos dicionários em Python
 # popitem    - apaga o último item adicionado
 # update     - atualiza um dicionário com o outro
 """
-pessoa = {
+# pessoa.setdefault('idade', None)
+# print(pessoa['idade'])
+# print(len(pessoa))
+# print(list(pessoa.keys()))
+# print(list(pessoa.values()))
+# print(list(pessoa.items()))
+
+# for valor in pessoa.values:
+#     print(valor)
+
+# for chave, valor in pessoa.items():
+#     print(chave, valor)
+# import copy
+# d1 = {
+#     'c1': 1,
+#     'c2': 2,
+#     'l1': [0, 1, 2],
+# }
+# # d2 = copy.copy(d1)
+# d2 = d1.copy()
+
+# d2['c1'] = 1000
+# d2['c1']= 99999
+# print(d1)
+# print(d2)
+p1 = {
     'nome': 'Luiz Otávio',
     'sobrenome': 'Miranda',
-    'sobrenome1': 'Miranda',
-    'sobrenome2': 'Miranda'
+    'idade' : 900,  
 }
-print(len(pessoa))
+# print(p1['nome'])
+# print(p1.get('nome', 'Não existe'))
+
+# nome = p1.popitem('nome')
+# print(nome)
+# print(p1)
+# p1.update({
+#     'nome': 'novo valor',
+#     'idade':30,
+# })
+# p1.update(nome='novo valor', idade=30)
+# tupla = (('nome'), ('novo valor'))
+lista = [['nome'], ['novo valor']]
+p1.update(lista)
+print(p1)
