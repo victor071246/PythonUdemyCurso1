@@ -9,6 +9,8 @@
 # print(lista)
 
 import pprint
+def p(v):
+    pprint.pprint(novos_produtos, sort_dicts=False, width=40)
 # Mapeamento de dados em list comprehension
 lista = []
 produtos = [
@@ -20,8 +22,9 @@ novos_produtos = [
     {**produto, 'preco': produto['preco'] * 1.05}
     if produto['preco'] > 20 else {**produto} #ternário
     for produto in produtos
+    if (produto['preco'] >=  20 and produto['preco'] * 1.05 > 10)
 ]
 
 # print(novos_produtos)
-# print(*novos_produtos, sep='\n')
-pprint.pprint(novos_produtos)
+# lista = [n for n in range(10) if n < 5] 
+p(novos_produtos)
