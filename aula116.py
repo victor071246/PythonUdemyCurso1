@@ -49,6 +49,6 @@ caminho_arquivo += 'teste.txt'
 with open(caminho_arquivo, 'a+') as arquivo:
     arquivo.write('Linha 1\n')
     arquivo.write('Linha 2\n')
-    arquivo.writelines(
+    arquivo.writelines(a
         ('Linha 3\n', 'Linha 4\n')
     )
