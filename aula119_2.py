@@ -6,7 +6,7 @@
 # desfazer = [] -> Refazer ['caminhar', 'fazer café']
 # refazer = todo ['fazer café']
 # refazer = todo ['fazer café', 'caminhar ']
-
+import os
 tarefas = []
 tarefas_refazer = []
 
@@ -26,7 +26,7 @@ def adicionar():
     tarefa = tarefa.strip()
     if tarefa in tarefas:
         print('Essa tarefa já está na lista\n')
-        return
+        return tarefa
     elif not tarefa:
         print('Você não digitou nada\n')
         return
@@ -45,27 +45,39 @@ def refazer():
     tarefa_para_refazer = tarefas_refazer.pop()
     tarefas.append(tarefa_para_refazer)
     
-
-
+def limpar():
+    os.system('cls')
+    return
 
 
 while True:
-    print('Comandos: listar, adicionar, desfazer, refazer')
-    print()
-    tarefa = input('Digite uma tarefa ou comando: \n')
+    
+    comandos = {
+        'listar': lambda: listar(tarefas),
+        'refazer': lambda: refazer(),
+        'desfazer': lambda: desfazer(),
+        'limpar': lambda: limpar(),
+        'adicionar': lambda: adicionar(),
+    }
 
-    if tarefa == 'listar':
-        listar(tarefas)
-        continue
-    elif tarefa == 'desfazer':
-        desfazer()
-        continue
-    elif tarefa == 'refazer':
-        refazer()
-        continue
-    elif tarefa == 'adicionar':
-        adicionar()
-        continue
+    tarefa = input('\nDigite uma tarefa ou comando: \n\n listar | adicionar | desfazer | refazer | limpar\n\n').strip()  
+    comando = comandos.get(tarefa)() if tarefa and comandos[tarefa] else print('Você não digitou uma tarefa válida')
+   
+
+
+
+#     if tarefa == 'listar':
+#         listar(tarefas)
+#         continue
+#     elif tarefa == 'desfazer':
+#         desfazer()
+#         continue
+#     elif tarefa == 'refazer':
+#         refazer()
+#         continue
+#     elif tarefa == 'adicionar':
+#         adicionar()
+#         continue
  
-    print('Você não digitou nada\n')
+#     print('Você não digitou nada\n')
         
