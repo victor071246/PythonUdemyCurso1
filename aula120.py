@@ -12,6 +12,10 @@ p1 = Pessoa()
 p1.nome = 'Luiz'
 p1.sobrenome = 'Otávio'
 
+p2 = Pessoa()
+p1.nome = 'Maria'
+p1.sobrenome = 'Antonieta'
+
 
 print(p1.nome)
 print(p1.sobrenome)
