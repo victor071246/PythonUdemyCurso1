@@ -1,0 +1,10 @@
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ClassesImportantes\ClassesImportantes\bin\Debug\ClassesImportantes.exe.config
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ClassesImportantes\ClassesImportantes\bin\Debug\ClassesImportantes.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ClassesImportantes\ClassesImportantes\bin\Debug\ClassesImportantes.pdb
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ClassesImportantes\ClassesImportantes\obj\Debug\ClassesImportantes.csproj.AssemblyReference.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ClassesImportantes\ClassesImportantes\obj\Debug\ClassesImportantes.Form1.resources
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ClassesImportantes\ClassesImportantes\obj\Debug\ClassesImportantes.Properties.Resources.resources
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ClassesImportantes\ClassesImportantes\obj\Debug\ClassesImportantes.csproj.GenerateResource.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ClassesImportantes\ClassesImportantes\obj\Debug\ClassesImportantes.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ClassesImportantes\ClassesImportantes\obj\Debug\ClassesImportantes.exe
+C:\Users\victo\OneDrive\Área de Trabalho\programação\c_sharp_udemy\ClassesImportantes\ClassesImportantes\obj\Debug\ClassesImportantes.pdb
