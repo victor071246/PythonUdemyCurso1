@@ -118,11 +118,14 @@ namespace ClassesImportantes
 
         private void btnFont_Click(object sender, EventArgs e)
         {
-            Font letra = new Font("Arial", 36, FontStyle.Italic, GraphicsUnit.Pixel);
+            //Font letra = new Font("Comic Sans MS", 36, FontStyle.Italic | FontStyle.Bold, GraphicsUnit.Pixel);
+            Font letra = new Font("Helvetica, Arial, sans-serif", 36, FontStyle.Italic | FontStyle.Bold, GraphicsUnit.Pixel);
+
+            Font letra2 = new Font(FontFamily.GenericMonospace, 36, FontStyle.Regular, GraphicsUnit.Pixel);
 
             lblResultado.Text = "Bem vindo ao C#, Trabalho com fontes ";
 
-            lblResultado.Font = letra;
+            lblResultado.Font = letra2;
         }
     }
 }
